@@ -1,0 +1,45 @@
+{
+ "case": {
+  "category": "refund",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": "FlyHigh Airlines",
+  "seller_address": null,
+  "product": "flight ticket",
+  "amount": 8000.0,
+  "paid_on": null,
+  "issue_date": "2025-09-05",
+  "purpose": "personal",
+  "channel": "service",
+  "issue": "Flight was cancelled and refund not issued after 2 months",
+  "proof": [],
+  "tried": [],
+  "urgent": false
+ },
+ "ev": {
+  "status": "covered",
+  "rules": [
+   "CONSUMER",
+   "DEFECT",
+   "DEFICIENCY",
+   "LIMITATION",
+   "DISTRICT_LIMIT",
+   "FEE_NIL",
+   "WHERE_TO_FILE",
+   "E_FILING",
+   "ADMISSION_TIME",
+   "DECISION_TIME",
+   "REMEDIES",
+   "STEP_NOTICE",
+   "STEP_NCH",
+   "STEP_COMPLAINT"
+  ],
+  "notes": [
+   "About 10 months left to file a complaint.",
+   "Your complaint would go to the District Commission."
+  ],
+  "escalate": [],
+  "missing": []
+ }
+}

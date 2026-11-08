@@ -1,0 +1,21 @@
+{
+ "case": {
+  "category": "notice",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": "bank",
+  "seller_address": null,
+  "product": null,
+  "amount": null,
+  "paid_on": null,
+  "issue_date": null,
+  "purpose": null,
+  "channel": "service",
+  "issue": "Received a legal notice from a bank demanding payment with a 15-day reply deadline.",
+  "proof": [],
+  "tried": [],
+  "urgent": true
+ },
+ "ev": null
+}

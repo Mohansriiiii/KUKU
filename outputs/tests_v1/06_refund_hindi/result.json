@@ -1,0 +1,24 @@
+{
+ "id": "06_refund_hindi",
+ "title": "Refund in Hindi",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 3,
+ "tokens_in": 2312,
+ "tokens_out": 915,
+ "seconds": 16.4,
+ "checks": [
+  [
+   "stage=explain",
+   true
+  ],
+  [
+   "reply in devanagari script",
+   true
+  ]
+ ]
+}

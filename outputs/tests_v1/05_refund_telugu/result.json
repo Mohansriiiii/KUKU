@@ -1,0 +1,24 @@
+{
+ "id": "05_refund_telugu",
+ "title": "Refund in Telugu",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 3,
+ "tokens_in": 1855,
+ "tokens_out": 1184,
+ "seconds": 16.7,
+ "checks": [
+  [
+   "stage=explain",
+   true
+  ],
+  [
+   "reply in telugu script",
+   true
+  ]
+ ]
+}

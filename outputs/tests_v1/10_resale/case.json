@@ -1,0 +1,31 @@
+{
+ "case": {
+  "category": "refund",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": "CaseKing",
+  "seller_address": null,
+  "product": "20 phone covers",
+  "amount": 8000.0,
+  "paid_on": null,
+  "issue_date": "2026-11-01",
+  "purpose": "resale",
+  "channel": "online_marketplace",
+  "issue": "Half the phone covers were broken, returned them on 1 November, no refund received.",
+  "proof": [],
+  "tried": "Returned the items",
+  "urgent": false
+ },
+ "ev": {
+  "status": "not_covered",
+  "rules": [
+   "CONSUMER"
+  ],
+  "notes": [],
+  "escalate": [
+   "Bought for resale or business use, so consumer law may not apply. Talk to a lawyer."
+  ],
+  "missing": []
+ }
+}

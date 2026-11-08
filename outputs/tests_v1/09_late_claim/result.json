@@ -1,0 +1,28 @@
+{
+ "id": "09_late_claim",
+ "title": "Offline purchase, 2-year limit has passed",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 2,
+ "tokens_in": 1354,
+ "tokens_out": 463,
+ "seconds": 12.9,
+ "checks": [
+  [
+   "stage=explain",
+   true
+  ],
+  [
+   "mentions one of ['lawyer', 'legal aid']",
+   true
+  ],
+  [
+   "escalate=True",
+   true
+  ]
+ ]
+}

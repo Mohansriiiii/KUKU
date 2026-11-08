@@ -1,0 +1,36 @@
+{
+ "id": "12_service_airline",
+ "title": "Service refund: cancelled flight",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 2,
+ "tokens_in": 1417,
+ "tokens_out": 448,
+ "seconds": 12.7,
+ "checks": [
+  [
+   "stage=explain",
+   true
+  ],
+  [
+   "mentions one of ['s.69', 's.2']",
+   true
+  ],
+  [
+   "case.issue_date=2026-09-05",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}

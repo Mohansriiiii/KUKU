@@ -1,0 +1,32 @@
+{
+ "id": "10_resale",
+ "title": "Bought for resale, consumer law may not apply",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "not_covered",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 1,
+ "tokens_in": 454,
+ "tokens_out": 176,
+ "seconds": 10.2,
+ "checks": [
+  [
+   "stage=not_covered",
+   true
+  ],
+  [
+   "mentions one of ['lawyer', '15100']",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}

@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+Kuku*.pdf
+outputs/sessions/
+data/index/cache/
+data/index/debug_*

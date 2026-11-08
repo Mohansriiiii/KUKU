@@ -1,0 +1,52 @@
+{
+ "case": {
+  "category": "refund",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": "Royal Furniture shop",
+  "seller_address": null,
+  "product": "broken sofa",
+  "amount": 15000.0,
+  "paid_on": null,
+  "issue_date": "2026-10-01",
+  "purpose": "personal",
+  "channel": "offline",
+  "issue": "Owner refusing refund for a broken sofa and threatening physical harm",
+  "proof": [],
+  "tried": [
+   "Asked for a refund"
+  ],
+  "urgent": true
+ },
+ "ev": {
+  "status": "escalate",
+  "rules": [
+   "CONSUMER",
+   "DEFECT",
+   "DEFICIENCY",
+   "LIMITATION",
+   "DISTRICT_LIMIT",
+   "FEE_NIL",
+   "WHERE_TO_FILE",
+   "E_FILING",
+   "ADMISSION_TIME",
+   "DECISION_TIME",
+   "REMEDIES",
+   "STEP_NOTICE",
+   "STEP_NCH",
+   "STEP_COMPLAINT"
+  ],
+  "notes": [
+   "Time limit counted from 01 October 2026. Tell me if that date is wrong.",
+   "About 23 months left to file a complaint.",
+   "Your complaint would go to the District Commission.",
+   "There is no filing fee for this amount."
+  ],
+  "escalate": [
+   "You mentioned a threat, court date or police matter. If you feel unsafe, call 112 now. Please also get a lawyer or legal aid (15100 (NALSA)) quickly."
+  ],
+  "missing": [],
+  "late": false
+ }
+}

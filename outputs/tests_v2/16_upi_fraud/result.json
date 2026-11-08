@@ -1,0 +1,32 @@
+{
+ "id": "16_upi_fraud",
+ "title": "Criminal: UPI prize scam",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "referral",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 1,
+ "tokens_in": 441,
+ "tokens_out": 167,
+ "seconds": 9.4,
+ "checks": [
+  [
+   "stage=referral",
+   true
+  ],
+  [
+   "mentions one of ['1930']",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}

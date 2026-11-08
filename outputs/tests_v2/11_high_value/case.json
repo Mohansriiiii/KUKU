@@ -1,0 +1,48 @@
+{
+ "case": {
+  "category": "refund",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": "Skyline Builders",
+  "seller_address": null,
+  "product": "flat",
+  "amount": 8000000.0,
+  "paid_on": null,
+  "issue_date": "2026-06-01",
+  "purpose": "personal",
+  "channel": "offline",
+  "issue": "Builder never gave possession of the flat and refused to refund the money.",
+  "proof": [],
+  "tried": [],
+  "urgent": false
+ },
+ "ev": {
+  "status": "escalate",
+  "rules": [
+   "CONSUMER",
+   "DEFECT",
+   "DEFICIENCY",
+   "LIMITATION",
+   "STATE_LIMIT",
+   "WHERE_TO_FILE",
+   "E_FILING",
+   "ADMISSION_TIME",
+   "DECISION_TIME",
+   "REMEDIES",
+   "STEP_NOTICE",
+   "STEP_NCH",
+   "STEP_COMPLAINT"
+  ],
+  "notes": [
+   "Time limit counted from 01 June 2026. Tell me if that date is wrong.",
+   "About 19 months left to file a complaint.",
+   "Your complaint would go to the State Commission."
+  ],
+  "escalate": [
+   "Claims above Rs 50 lakh go to higher commissions. A lawyer is strongly advised."
+  ],
+  "missing": [],
+  "late": false
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "id": "18_threat_urgent",
+ "title": "Refund dispute with a threat",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 2,
+ "tokens_in": 1347,
+ "tokens_out": 477,
+ "seconds": 12.5,
+ "checks": [
+  [
+   "mentions one of ['112', 'lawyer', 'police']",
+   true
+  ],
+  [
+   "escalate=True",
+   true
+  ]
+ ]
+}

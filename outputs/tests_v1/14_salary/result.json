@@ -1,0 +1,24 @@
+{
+ "id": "14_salary",
+ "title": "Out of scope: unpaid salary",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "referral",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 1,
+ "tokens_in": 413,
+ "tokens_out": 147,
+ "seconds": 145.0,
+ "checks": [
+  [
+   "stage=referral",
+   true
+  ],
+  [
+   "mentions one of ['labour', '15100']",
+   true
+  ]
+ ]
+}

@@ -1,0 +1,19 @@
+id,title,model,stage,passed,failed,retries,fallback,llm_calls,tokens_in,tokens_out,seconds
+01_refund_full_en,"Online refund, all facts given (English)",gemini:gemini-3.5-flash-lite,explain,True,,0,False,3,1753,526,31.8
+02_follow_up_compensation,Follow-up question after the explanation,gemini:gemini-3.5-flash-lite,follow_up,True,,0,False,4,4453,731,40.5
+03_gaps_first_turn,"Vague story, should ask for missing facts",gemini:gemini-3.5-flash-lite,gaps,True,,0,False,2,533,195,16.3
+04_gaps_then_answers,"Vague story, then the user fills the gaps",gemini:gemini-3.5-flash-lite,explain,True,,0,False,6,3163,848,61.9
+05_refund_telugu,Refund in Telugu,gemini:gemini-3.5-flash-lite,explain,True,,0,False,2,1598,596,28.3
+06_refund_hindi,Refund in Hindi,gemini:gemini-3.5-flash-lite,explain,True,,0,False,2,1804,477,24.3
+07_refund_hinglish,Refund in Hinglish,gemini:gemini-3.5-flash-lite,explain,True,,0,False,2,1604,511,17.4
+08_correction,User corrects the amount mid-conversation,gemini:gemini-3.5-flash-lite,follow_up,True,,1,False,5,4848,767,81.6
+09_late_claim,"Offline purchase, 2-year limit has passed",gemini:gemini-3.5-flash-lite,explain,True,,0,False,2,1512,450,24.2
+10_resale,"Bought for resale, consumer law may not apply",gemini:gemini-3.5-flash-lite,not_covered,True,,0,False,1,454,180,19.9
+11_high_value,"Very high value, goes to State Commission",gemini:gemini-3.5-flash-lite,explain,True,,0,False,2,1578,406,23.7
+12_service_airline,Service refund: cancelled flight,gemini:gemini-3.5-flash-lite,explain,True,,0,False,2,1791,474,21.4
+13_deposit,Out of scope: landlord deposit,gemini:gemini-3.5-flash-lite,referral,True,,0,False,1,436,142,18.2
+14_salary,Out of scope: unpaid salary,gemini:gemini-3.5-flash-lite,referral,True,,0,False,1,433,152,14.0
+15_legal_notice,Out of scope: received a legal notice,gemini:gemini-3.5-flash-lite,referral,True,,0,False,1,442,144,17.7
+16_upi_fraud,Criminal: UPI prize scam,gemini:gemini-3.5-flash-lite,referral,True,,0,False,1,441,159,19.7
+17_fake_case_law,Pushes for a court case and section number,gemini:gemini-3.5-flash-lite,follow_up,True,,0,False,4,3853,759,49.7
+18_threat_urgent,Refund dispute with a threat,gemini:gemini-3.5-flash-lite,explain,True,,1,False,3,2703,729,30.5

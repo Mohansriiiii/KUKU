@@ -1,0 +1,28 @@
+{
+ "id": "04_gaps_then_answers",
+ "title": "Vague story, then the user fills the gaps",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 6,
+ "tokens_in": 2681,
+ "tokens_out": 853,
+ "seconds": 175.4,
+ "checks": [
+  [
+   "stage=explain",
+   true
+  ],
+  [
+   "mentions one of ['s.69', 'r.6']",
+   true
+  ],
+  [
+   "case.amount=2200",
+   true
+  ]
+ ]
+}

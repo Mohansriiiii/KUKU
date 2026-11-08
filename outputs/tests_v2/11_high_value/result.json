@@ -1,0 +1,32 @@
+{
+ "id": "11_high_value",
+ "title": "Very high value, goes to State Commission",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 2,
+ "tokens_in": 2103,
+ "tokens_out": 435,
+ "seconds": 13.7,
+ "checks": [
+  [
+   "mentions one of ['State Commission', 'lawyer']",
+   true
+  ],
+  [
+   "escalate=True",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "case": {
+  "category": "criminal",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": null,
+  "seller_address": null,
+  "product": null,
+  "amount": 5000.0,
+  "paid_on": null,
+  "issue_date": null,
+  "purpose": null,
+  "channel": null,
+  "issue": "Scammed after receiving a call about winning a prize and paying via UPI",
+  "proof": [],
+  "tried": [
+   "Called the number and found it switched off"
+  ],
+  "urgent": false
+ },
+ "ev": null
+}

@@ -1,0 +1,32 @@
+{
+ "id": "15_legal_notice",
+ "title": "Out of scope: received a legal notice",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "referral",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 1,
+ "tokens_in": 442,
+ "tokens_out": 142,
+ "seconds": 9.2,
+ "checks": [
+  [
+   "stage=referral",
+   true
+  ],
+  [
+   "mentions one of ['lawyer']",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}

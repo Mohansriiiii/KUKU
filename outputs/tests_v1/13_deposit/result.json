@@ -1,0 +1,24 @@
+{
+ "id": "13_deposit",
+ "title": "Out of scope: landlord deposit",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "referral",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 1,
+ "tokens_in": 416,
+ "tokens_out": 141,
+ "seconds": 99.1,
+ "checks": [
+  [
+   "stage=referral",
+   true
+  ],
+  [
+   "mentions one of ['15100']",
+   true
+  ]
+ ]
+}

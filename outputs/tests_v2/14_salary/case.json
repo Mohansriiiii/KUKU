@@ -1,0 +1,23 @@
+{
+ "case": {
+  "category": "salary",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": null,
+  "seller_address": null,
+  "product": null,
+  "amount": null,
+  "paid_on": null,
+  "issue_date": null,
+  "purpose": null,
+  "channel": null,
+  "issue": "Company has not paid salary for 3 months and HR is ignoring.",
+  "proof": [],
+  "tried": [
+   "Contacted HR"
+  ],
+  "urgent": false
+ },
+ "ev": null
+}

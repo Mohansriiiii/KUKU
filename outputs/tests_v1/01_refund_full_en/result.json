@@ -1,0 +1,28 @@
+{
+ "id": "01_refund_full_en",
+ "title": "Online refund, all facts given (English)",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 3,
+ "tokens_in": 1628,
+ "tokens_out": 529,
+ "seconds": 14.4,
+ "checks": [
+  [
+   "stage=explain",
+   true
+  ],
+  [
+   "mentions one of ['s.69']",
+   true
+  ],
+  [
+   "notice drafted",
+   true
+  ]
+ ]
+}

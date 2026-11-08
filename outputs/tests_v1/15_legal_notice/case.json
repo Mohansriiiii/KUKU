@@ -1,0 +1,21 @@
+{
+ "case": {
+  "category": "notice",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": "a bank",
+  "seller_address": null,
+  "product": null,
+  "amount": null,
+  "paid_on": null,
+  "issue_date": null,
+  "purpose": null,
+  "channel": null,
+  "issue": "Received a legal notice from a bank demanding payment",
+  "proof": [],
+  "tried": [],
+  "urgent": true
+ },
+ "ev": null
+}

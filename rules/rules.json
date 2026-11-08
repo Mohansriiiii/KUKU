@@ -1,0 +1,159 @@
+[
+  {
+    "id": "CONSUMER",
+    "kind": "law",
+    "rule": "You count as a consumer if you bought the goods or service for your own use. Buying for resale or for a commercial purpose is excluded.",
+    "src": "CPA_S2",
+    "ref": "Consumer Protection Act, 2019, s.2(7)",
+    "evidence": "for resale or for any commercial purpose"
+  },
+  {
+    "id": "DEFECT",
+    "kind": "law",
+    "rule": "A defect is any fault, imperfection or shortcoming in the quality, quantity, potency, purity or standard of goods.",
+    "src": "CPA_S2",
+    "ref": "Consumer Protection Act, 2019, s.2(10)",
+    "evidence": "\"defect\" means any fault"
+  },
+  {
+    "id": "DEFICIENCY",
+    "kind": "law",
+    "rule": "A deficiency is any fault, imperfection, shortcoming or inadequacy in the quality, nature or manner of performance of a service.",
+    "src": "CPA_S2",
+    "ref": "Consumer Protection Act, 2019, s.2(11)",
+    "evidence": "\"deficiency\" means any fault"
+  },
+  {
+    "id": "LIMITATION",
+    "kind": "law",
+    "rule": "A complaint must be filed within 2 years from when the cause of action arose. A late complaint is accepted only if the commission is satisfied there was sufficient cause for the delay.",
+    "src": "CPA_S69",
+    "ref": "Consumer Protection Act, 2019, s.69",
+    "evidence": "within two years from the date on which the cause of action has arisen"
+  },
+  {
+    "id": "WHERE_TO_FILE",
+    "kind": "law",
+    "rule": "You can file at the District Commission where the seller works or has a branch, where the cause of action arose, or where you live or work.",
+    "src": "CPA_S34",
+    "ref": "Consumer Protection Act, 2019, s.34(2)",
+    "evidence": "complainant resides or personally works for gain"
+  },
+  {
+    "id": "E_FILING",
+    "kind": "law",
+    "rule": "A complaint can be filed electronically.",
+    "src": "CPA_S35",
+    "ref": "Consumer Protection Act, 2019, s.35",
+    "evidence": "filed electronically"
+  },
+  {
+    "id": "ADMISSION_TIME",
+    "kind": "law",
+    "rule": "The commission should ordinarily decide whether to admit a complaint within 21 days of filing.",
+    "src": "CPA_S36",
+    "ref": "Consumer Protection Act, 2019, s.36",
+    "evidence": "within twenty-one days"
+  },
+  {
+    "id": "DECISION_TIME",
+    "kind": "law",
+    "rule": "The commission tries to decide a complaint within 3 months of the seller receiving notice, or 5 months if goods need lab testing.",
+    "src": "CPA_S38",
+    "ref": "Consumer Protection Act, 2019, s.38",
+    "evidence": "within a period of three months"
+  },
+  {
+    "id": "REMEDIES",
+    "kind": "law",
+    "rule": "If the complaint succeeds, the commission can order the seller to remove the defect, replace the goods, return the price, pay compensation, and in some cases pay punitive damages.",
+    "src": "CPA_S39",
+    "ref": "Consumer Protection Act, 2019, s.39",
+    "evidence": "return to the complainant the price"
+  },
+  {
+    "id": "DISTRICT_LIMIT",
+    "kind": "law",
+    "rule": "The District Commission hears complaints where the value paid is up to Rs 50 lakh.",
+    "src": "JUR_R3",
+    "ref": "Consumer Protection (Jurisdiction) Rules, 2021, r.3",
+    "evidence": "fifty lakh"
+  },
+  {
+    "id": "STATE_LIMIT",
+    "kind": "law",
+    "rule": "The State Commission hears complaints where the value paid is above Rs 50 lakh and up to Rs 2 crore.",
+    "src": "JUR_R4",
+    "ref": "Consumer Protection (Jurisdiction) Rules, 2021, r.4",
+    "evidence": "two crore"
+  },
+  {
+    "id": "NATIONAL_LIMIT",
+    "kind": "law",
+    "rule": "The National Commission hears complaints where the value paid is above Rs 2 crore.",
+    "src": "JUR_R5",
+    "ref": "Consumer Protection (Jurisdiction) Rules, 2021, r.5",
+    "evidence": "two crore"
+  },
+  {
+    "id": "FEE_NIL",
+    "kind": "law",
+    "rule": "There is no filing fee for complaints where the value paid is up to Rs 5 lakh.",
+    "src": "CDRC_R7",
+    "ref": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020, r.7",
+    "evidence": "nil"
+  },
+  {
+    "id": "ECOM_SELLER_REFUND",
+    "kind": "law",
+    "rule": "A seller on an online marketplace cannot refuse to take back goods or refuse a refund if the goods are defective, deficient or spurious, not as advertised, or delivered late.",
+    "src": "ECOM_R6",
+    "ref": "Consumer Protection (E-Commerce) Rules, 2020, r.6(3)",
+    "evidence": "refuse to take back goods"
+  },
+  {
+    "id": "ECOM_SELLER_GRIEVANCE",
+    "kind": "law",
+    "rule": "A seller on an online marketplace must have a grievance officer who acknowledges a complaint within 48 hours and resolves it within one month.",
+    "src": "ECOM_R6",
+    "ref": "Consumer Protection (E-Commerce) Rules, 2020, r.6",
+    "evidence": "forty-eight hours"
+  },
+  {
+    "id": "ECOM_INVENTORY_REFUND",
+    "kind": "law",
+    "rule": "An online store selling its own stock cannot refuse to take back goods or refuse a refund if the goods are defective, deficient or spurious, not as advertised, or delivered late.",
+    "src": "ECOM_R7",
+    "ref": "Consumer Protection (E-Commerce) Rules, 2020, r.7",
+    "evidence": "refuse to take back goods"
+  },
+  {
+    "id": "ECOM_REFUND_PAYMENT",
+    "kind": "law",
+    "rule": "Online platforms must pay accepted refunds within the timeline set by the Reserve Bank of India or another competent authority.",
+    "src": "ECOM_R4",
+    "ref": "Consumer Protection (E-Commerce) Rules, 2020, r.4",
+    "evidence": "accepted refund requests"
+  },
+  {
+    "id": "STEP_NOTICE",
+    "kind": "practice",
+    "rule": "Send the seller a written notice asking for the refund, with a deadline (usually 15 days). The Act does not require this, but it creates a record and often settles the matter.",
+    "src": null,
+    "ref": "Common practice, not a legal requirement"
+  },
+  {
+    "id": "STEP_NCH",
+    "kind": "practice",
+    "rule": "Register a grievance with the National Consumer Helpline: call 1915 or use consumerhelpline.gov.in. It tries to resolve the issue with the company before any case.",
+    "src": null,
+    "ref": "National Consumer Helpline, Department of Consumer Affairs"
+  },
+  {
+    "id": "STEP_COMPLAINT",
+    "kind": "practice",
+    "rule": "If it is still unresolved, file a complaint online at e-jagriti.gov.in with your bill, order details, and messages with the seller.",
+    "src": null,
+    "ref": "e-Jagriti portal (online filing is allowed under s.35)"
+  }
+]

@@ -1,0 +1,21 @@
+{
+ "case": {
+  "category": "deposit",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": null,
+  "seller_address": null,
+  "product": null,
+  "amount": 20000.0,
+  "paid_on": null,
+  "issue_date": null,
+  "purpose": null,
+  "channel": null,
+  "issue": "Landlord is not returning security deposit after vacating the flat",
+  "proof": [],
+  "tried": [],
+  "urgent": false
+ },
+ "ev": null
+}

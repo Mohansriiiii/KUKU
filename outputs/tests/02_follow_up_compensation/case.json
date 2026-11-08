@@ -1,0 +1,53 @@
+{
+ "case": {
+  "category": "refund",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": "XYZ Store",
+  "seller_address": null,
+  "product": "mixer",
+  "amount": 4500.0,
+  "paid_on": "2026-09-10",
+  "issue_date": "2026-09-20",
+  "purpose": "personal",
+  "channel": "online_marketplace",
+  "issue": "Returned a defective mixer but no refund received",
+  "proof": [],
+  "tried": [
+   "Returned the defective mixer"
+  ],
+  "urgent": false
+ },
+ "ev": {
+  "status": "covered",
+  "rules": [
+   "CONSUMER",
+   "DEFECT",
+   "DEFICIENCY",
+   "LIMITATION",
+   "DISTRICT_LIMIT",
+   "FEE_NIL",
+   "ECOM_SELLER_REFUND",
+   "ECOM_SELLER_GRIEVANCE",
+   "ECOM_REFUND_PAYMENT",
+   "WHERE_TO_FILE",
+   "E_FILING",
+   "ADMISSION_TIME",
+   "DECISION_TIME",
+   "REMEDIES",
+   "STEP_NOTICE",
+   "STEP_NCH",
+   "STEP_COMPLAINT"
+  ],
+  "notes": [
+   "Time limit counted from 20 September 2026. Tell me if that date is wrong.",
+   "About 22 months left to file a complaint.",
+   "Your complaint would go to the District Commission.",
+   "There is no filing fee for this amount."
+  ],
+  "escalate": [],
+  "missing": [],
+  "late": false
+ }
+}

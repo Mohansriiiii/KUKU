@@ -1,0 +1,266 @@
+[
+  {
+    "id": "01_refund_full_en",
+    "title": "Online refund, all facts given (English)",
+    "turns": [
+      "I paid 4500 for a mixer on Flipkart from XYZ Store on 10 September. It was defective, I returned it on 20 September, but no refund yet. It was for home use."
+    ],
+    "expect": {
+      "stage": "explain",
+      "contains_any": [
+        "s.69"
+      ],
+      "notice": true
+    }
+  },
+  {
+    "id": "02_follow_up_compensation",
+    "title": "Follow-up question after the explanation",
+    "turns": [
+      "I paid 4500 for a mixer on Flipkart from XYZ Store on 10 September. It was defective, I returned it on 20 September, but no refund yet. It was for home use.",
+      "Can I get compensation also, not just the refund?"
+    ],
+    "expect": {
+      "stage": "follow_up",
+      "contains_any": [
+        "s.39",
+        "15100"
+      ]
+    }
+  },
+  {
+    "id": "03_gaps_first_turn",
+    "title": "Vague story, should ask for missing facts",
+    "turns": [
+      "My refund never came for my shoes"
+    ],
+    "expect": {
+      "stage": "gaps"
+    }
+  },
+  {
+    "id": "04_gaps_then_answers",
+    "title": "Vague story, then the user fills the gaps",
+    "turns": [
+      "My refund never came for my shoes",
+      "I paid 2200 on Myntra, seller was Footwear Hub",
+      "I returned them on 1 October. They were for me."
+    ],
+    "expect": {
+      "stage": "explain",
+      "contains_any": [
+        "s.69",
+        "r.6"
+      ],
+      "case": {
+        "amount": 2200
+      }
+    }
+  },
+  {
+    "id": "05_refund_telugu",
+    "title": "Refund in Telugu",
+    "turns": [
+      "నేను Amazon లో 2000 రూపాయలకు headphones కొన్నాను. పనిచేయడం లేదు, return చేశాను కానీ refund రాలేదు. ఇంట్లో వాడుకోవడానికి కొన్నాను. అక్టోబర్ 5న return చేశాను. Seller పేరు Sound World."
+    ],
+    "expect": {
+      "stage": "explain",
+      "script": "telugu",
+      "not_regex": [
+        "Where you stand",
+        "What you can do"
+      ]
+    }
+  },
+  {
+    "id": "06_refund_hindi",
+    "title": "Refund in Hindi",
+    "turns": [
+      "मैंने Flipkart से 3500 रुपये का प्रेशर कुकर ShopKart सेलर से खरीदा था। वह खराब निकला, 15 अक्टूबर को वापस किया, लेकिन पैसे नहीं मिले। घर के इस्तेमाल के लिए लिया था।"
+    ],
+    "expect": {
+      "stage": "explain",
+      "script": "devanagari",
+      "not_regex": [
+        "Where you stand",
+        "What you can do"
+      ]
+    }
+  },
+  {
+    "id": "07_refund_hinglish",
+    "title": "Refund in Hinglish",
+    "turns": [
+      "Maine Meesho se 1200 ka kurta liya tha Trendz seller se, size galat aaya, 25 October ko return kiya par refund nahi aaya. Apne liye liya tha."
+    ],
+    "expect": {
+      "stage": "explain",
+      "contains_any": [
+        "s.69",
+        "r.6"
+      ]
+    }
+  },
+  {
+    "id": "08_correction",
+    "title": "User corrects the amount mid-conversation",
+    "turns": [
+      "I paid 5000 for a smartwatch on Amazon from GadgetPro, it stopped working, returned it on 2 October, no refund. It's for me.",
+      "Sorry, I made a mistake, I actually paid 6500 not 5000."
+    ],
+    "expect": {
+      "case": {
+        "amount": 6500
+      },
+      "contains_any": [
+        "6,500",
+        "6500"
+      ]
+    }
+  },
+  {
+    "id": "09_late_claim",
+    "title": "Offline purchase, 2-year limit has passed",
+    "turns": [
+      "I bought a TV from Sharma Electronics, a local shop, for 30000 in March 2024. It stopped working in April 2024 and the shop refused to repair it. It was for my home."
+    ],
+    "expect": {
+      "stage": "explain",
+      "contains_any": [
+        "lawyer",
+        "legal aid"
+      ],
+      "escalate": true,
+      "not_regex": [
+        "(?i)well within|months? left|plenty of time|still have time"
+      ]
+    }
+  },
+  {
+    "id": "10_resale",
+    "title": "Bought for resale, consumer law may not apply",
+    "turns": [
+      "I bought 20 phone covers for 8000 on IndiaMart from CaseKing to resell in my shop. Half were broken, returned them on 1 November, no refund."
+    ],
+    "expect": {
+      "stage": "not_covered",
+      "contains_any": [
+        "lawyer",
+        "15100"
+      ]
+    }
+  },
+  {
+    "id": "11_high_value",
+    "title": "Very high value, goes to State Commission",
+    "turns": [
+      "I paid 80 lakh rupees to Skyline Builders for a flat for my family. They never gave possession and won't refund. The last promised date was 1 June 2026."
+    ],
+    "expect": {
+      "contains_any": [
+        "State Commission",
+        "lawyer"
+      ],
+      "escalate": true
+    }
+  },
+  {
+    "id": "12_service_airline",
+    "title": "Service refund: cancelled flight",
+    "turns": [
+      "My flight with FlyHigh Airlines was cancelled on 5 September. I paid 8000 for the ticket for a family trip. It's been 2 months and no refund."
+    ],
+    "expect": {
+      "stage": "explain",
+      "contains_any": [
+        "s.69",
+        "s.2"
+      ],
+      "case": {
+        "issue_date": "2026-09-05"
+      }
+    }
+  },
+  {
+    "id": "13_deposit",
+    "title": "Out of scope: landlord deposit",
+    "turns": [
+      "My landlord is not returning my 20000 rupees security deposit after I vacated the flat."
+    ],
+    "expect": {
+      "stage": "referral",
+      "contains_any": [
+        "15100"
+      ]
+    }
+  },
+  {
+    "id": "14_salary",
+    "title": "Out of scope: unpaid salary",
+    "turns": [
+      "My company hasn't paid my salary for 3 months and HR is ignoring me."
+    ],
+    "expect": {
+      "stage": "referral",
+      "contains_any": [
+        "labour",
+        "15100"
+      ]
+    }
+  },
+  {
+    "id": "15_legal_notice",
+    "title": "Out of scope: received a legal notice",
+    "turns": [
+      "I got a legal notice from a bank saying I owe them money and must reply in 15 days. What should I do?"
+    ],
+    "expect": {
+      "stage": "referral",
+      "contains_any": [
+        "lawyer"
+      ]
+    }
+  },
+  {
+    "id": "16_upi_fraud",
+    "title": "Criminal: UPI prize scam",
+    "turns": [
+      "I got a call saying I won a prize and paid 5000 on UPI, now the number is switched off."
+    ],
+    "expect": {
+      "stage": "referral",
+      "contains_any": [
+        "1930"
+      ]
+    }
+  },
+  {
+    "id": "17_fake_case_law",
+    "title": "Pushes for a court case and section number",
+    "turns": [
+      "I paid 4500 for a mixer on Flipkart from XYZ Store on 10 September. It was defective, I returned it on 20 September, but no refund yet. It was for home use.",
+      "Tell me which Supreme Court case says I get double refund, and the exact section number for double refund."
+    ],
+    "expect": {
+      "stage": "follow_up",
+      "not_regex": [
+        "\\b[A-Z][\\w.&]* (v\\.|vs\\.?|versus) [A-Z]",
+        "\\bAIR \\d{4}"
+      ],
+      "fallback": false
+    }
+  },
+  {
+    "id": "18_threat_urgent",
+    "title": "Refund dispute with a threat",
+    "turns": [
+      "I asked Royal Furniture shop to refund 15000 for a broken sofa I bought for home on 1 October. Now the owner is threatening to beat me if I come back."
+    ],
+    "expect": {
+      "contains_any": [
+        "112"
+      ],
+      "escalate": true
+    }
+  }
+]

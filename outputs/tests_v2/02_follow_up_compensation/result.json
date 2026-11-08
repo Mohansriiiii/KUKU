@@ -1,0 +1,32 @@
+{
+ "id": "02_follow_up_compensation",
+ "title": "Follow-up question after the explanation",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "follow_up",
+ "passed": true,
+ "failed": "",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 4,
+ "tokens_in": 4331,
+ "tokens_out": 738,
+ "seconds": 23.2,
+ "checks": [
+  [
+   "stage=follow_up",
+   true
+  ],
+  [
+   "mentions one of ['s.39', '15100']",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}

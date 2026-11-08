@@ -1,0 +1,53 @@
+{
+ "case": {
+  "category": "refund",
+  "language": "Hinglish",
+  "user_name": null,
+  "user_city": null,
+  "seller": "Trendz",
+  "seller_address": null,
+  "product": "kurta",
+  "amount": 1200.0,
+  "paid_on": null,
+  "issue_date": "2026-10-25",
+  "purpose": "personal",
+  "channel": "online_marketplace",
+  "issue": "Received wrong size kurta and returned it on October 25, but refund not received",
+  "proof": [],
+  "tried": [
+   "Returned the product"
+  ],
+  "urgent": false
+ },
+ "ev": {
+  "status": "covered",
+  "rules": [
+   "CONSUMER",
+   "DEFECT",
+   "DEFICIENCY",
+   "LIMITATION",
+   "DISTRICT_LIMIT",
+   "FEE_NIL",
+   "ECOM_SELLER_REFUND",
+   "ECOM_SELLER_GRIEVANCE",
+   "ECOM_REFUND_PAYMENT",
+   "WHERE_TO_FILE",
+   "E_FILING",
+   "ADMISSION_TIME",
+   "DECISION_TIME",
+   "REMEDIES",
+   "STEP_NOTICE",
+   "STEP_NCH",
+   "STEP_COMPLAINT"
+  ],
+  "notes": [
+   "Time limit counted from 25 October 2026. Tell me if that date is wrong.",
+   "About 23 months left to file a complaint.",
+   "Your complaint would go to the District Commission.",
+   "There is no filing fee for this amount."
+  ],
+  "escalate": [],
+  "missing": [],
+  "late": false
+ }
+}

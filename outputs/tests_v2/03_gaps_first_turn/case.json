@@ -1,0 +1,46 @@
+{
+ "case": {
+  "category": "refund",
+  "language": "English",
+  "user_name": null,
+  "user_city": null,
+  "seller": null,
+  "seller_address": null,
+  "product": "shoes",
+  "amount": null,
+  "paid_on": null,
+  "issue_date": null,
+  "purpose": null,
+  "channel": null,
+  "issue": "Refund never came for shoes",
+  "proof": [],
+  "tried": [],
+  "urgent": false
+ },
+ "ev": {
+  "status": "covered",
+  "rules": [
+   "CONSUMER",
+   "DEFECT",
+   "DEFICIENCY",
+   "WHERE_TO_FILE",
+   "E_FILING",
+   "ADMISSION_TIME",
+   "DECISION_TIME",
+   "REMEDIES",
+   "STEP_NOTICE",
+   "STEP_NCH",
+   "STEP_COMPLAINT"
+  ],
+  "notes": [],
+  "escalate": [],
+  "missing": [
+   "purpose",
+   "issue_date",
+   "amount",
+   "channel",
+   "seller"
+  ],
+  "late": false
+ }
+}

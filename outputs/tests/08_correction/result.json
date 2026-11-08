@@ -1,0 +1,32 @@
+{
+ "id": "08_correction",
+ "title": "User corrects the amount mid-conversation",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "follow_up",
+ "passed": true,
+ "failed": "",
+ "retries": 1,
+ "fallback": false,
+ "llm_calls": 5,
+ "tokens_in": 4848,
+ "tokens_out": 767,
+ "seconds": 81.6,
+ "checks": [
+  [
+   "mentions one of ['6,500', '6500']",
+   true
+  ],
+  [
+   "case.amount=6500",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}

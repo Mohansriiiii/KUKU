@@ -1,0 +1,40 @@
+{
+ "id": "06_refund_hindi",
+ "title": "Refund in Hindi",
+ "model": "gemini:gemini-3.5-flash-lite",
+ "stage": "explain",
+ "passed": false,
+ "failed": "no match for Where you stand; no match for What you can do",
+ "retries": 0,
+ "fallback": false,
+ "llm_calls": 2,
+ "tokens_in": 1771,
+ "tokens_out": 531,
+ "seconds": 12.8,
+ "checks": [
+  [
+   "stage=explain",
+   true
+  ],
+  [
+   "no match for Where you stand",
+   false
+  ],
+  [
+   "no match for What you can do",
+   false
+  ],
+  [
+   "reply in devanagari script",
+   true
+  ],
+  [
+   "no raw brackets shown to user []",
+   true
+  ],
+  [
+   "no prompt wording leaked",
+   true
+  ]
+ ]
+}
